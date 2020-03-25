@@ -1,0 +1,19 @@
+{
+    "name": "boesing/zend-form-module",
+    "description": "External module for debugging laminas-migration issue",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "require": {
+        "zendframework/zend-form": "^2.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "Boesing\\Zend\\Form\\": "src/"
+        }
+    },
+    "extra": {
+        "zf": {
+            "module": "Boesing\\Zend\\Form\\"
+        }
+    }
+}
