@@ -13,7 +13,8 @@
     },
     "extra": {
         "zf": {
-            "module": "Boesing\\Zend\\Form"
+            "module": "Boesing\\Zend\\Form",
+            "config-provider": "Boesing\\Zend\\Form\\ConfigProvider"
         }
     }
 }
